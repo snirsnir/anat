@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Leonardo da Vinci</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply a simple styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Explore the World of Leonardo da Vinci</h1>
+        <p>Dive into the virtual tours of Leonardo da Vinci's masterpieces and life.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://mus3ums.com/en/tour3D/leonardo-da-vinci/" target="_blank">3D Tour of Leonardo da Vinci's Work</a></li>
+            <li><a href="https://v21artspace.com/leonardo-da-vinci-a-life-in-drawing" target="_blank">Leonardo da Vinci: A Life in Drawing</a></li>
+            <li><a href="https://mindfullivingnetwork.com/see-the-mona-lisa-a-360-tour-at-the-louvre-museum-in-paris/" target="_blank">360 Tour at the Louvre Museum in Paris</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <p>Enjoy exploring the genius of Leonardo da Vinci.</p>
+    </footer>
+    <script>
+        // Example JavaScript to interact with the links - this code logs the URL of clicked links
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                console.log('You clicked: ', event.target.href);
+            });
+        });
+    </script>
+</body>
+
+</html>
